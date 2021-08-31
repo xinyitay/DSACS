@@ -2,26 +2,31 @@
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="DSACS/Program.cs" Line="10" Column="13" />
-      <File FileName="LinkedList/Program.cs" Line="1" Column="1" />
-      <File FileName="LinkedList/LinkedList.cs" Line="15" Column="16" />
-      <File FileName="LinkedList/Node.cs" Line="9" Column="25" />
+      <File FileName="LinkedList/Program.cs" Line="11" Column="6" />
+      <File FileName="LinkedList/LinkedList.cs" Line="2" Column="15" />
+      <File FileName="LinkedList/Node.cs" Line="2" Column="15" />
+      <File FileName="StacksQueues/Node.cs" Line="11" Column="22" />
+      <File FileName="LinkedList/StacksQueues.cs" Line="2" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DSACS" expanded="True">
-            <Node name="DSACS" expanded="True" />
-            <Node name="LinkedList" expanded="True">
-              <Node name="LinkedList.cs" selected="True" />
+            <Node name="Day1" expanded="True">
+              <Node name="Node.cs" selected="True" />
             </Node>
+            <Node name="DSACS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.DSACS PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.LinkedList FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>StacksQueues/StacksQueues.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.ItemProperties.Day1 FirstBuild="True" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

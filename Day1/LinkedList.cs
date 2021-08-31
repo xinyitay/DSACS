@@ -41,6 +41,7 @@ namespace LinkedList
 
         public void Insert(int index, string newElement)
         {
+            // why index <= numElem not index > ?
             if (index >= 0 && index <= numElem)
             {
                 Node newNode = new Node(newElement);
@@ -89,8 +90,39 @@ namespace LinkedList
 
         public void Replace(int index, string newElement)
         {
-            if (index < 0 || index > numElem;)
+            if (index < 0 || index >= numElem)
+            {
+                return;
+            }
+
+            if (index >= 0 && index < numElem)
+            {
+                Node newNode = new Node(newElement);
+
+                if (index >= 0)
+                {
+                    newNode.Next = Head.Next;
+                    Head = newNode;                    
+                }
+
+                Node nodeBefore = GetAt(index - 1);
+                Node nodeAfter = GetAt(index).Next;
+
+                nodeBefore.Next = newNode;
+                newNode.Next = nodeAfter;
+            }                         
         }
-        
+
+        public bool Contains(string element)
+        {
+            for (int i = 0; i < numElem; i++)
+            {
+                if (element == GetAt(i).Data)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }        
     }
 }

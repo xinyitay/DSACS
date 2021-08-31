@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/xinyitay/Projects/DSACS/LinkedList/LinkedList.csproj",
-      "projectName": "LinkedList",
-      "projectPath": "/Users/xinyitay/Projects/DSACS/LinkedList/LinkedList.csproj",
+      "projectUniqueName": "/Users/xinyitay/Projects/DSACS/LinkedList/Day1.csproj",
+      "projectName": "Day1",
+      "projectPath": "/Users/xinyitay/Projects/DSACS/LinkedList/Day1.csproj",
       "packagesPath": "/Users/xinyitay/.nuget/packages/",
       "outputPath": "/Users/xinyitay/Projects/DSACS/LinkedList/obj/",
       "projectStyle": "PackageReference",
