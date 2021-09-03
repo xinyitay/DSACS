@@ -6,7 +6,9 @@ namespace Day1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int[] arr = new int[] { 1, 5, 2, 4, 4, 3, 5, 7, 9, 2 };
+            GetUniqueNumbers.GetUniqueNumbersArr(arr);
+
         }
     }
 }

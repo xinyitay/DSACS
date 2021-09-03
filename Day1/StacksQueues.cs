@@ -1,11 +1,14 @@
 ﻿using System;
-namespace StacksQueues
+namespace Day1
 {
     public class StacksQueues
     {
         public StacksQueues()
         {
+            LinkedList myStack = new LinkedList();
         }
+
+        public void push
 
 
         private static bool IsOpenDelimiter(char ch)

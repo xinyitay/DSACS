@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/xinyitay/Projects/DSACS/DSACS/DSACS.csproj",
-      "projectName": "DSACS",
-      "projectPath": "/Users/xinyitay/Projects/DSACS/DSACS/DSACS.csproj",
+      "projectUniqueName": "/Users/xinyitay/Projects/DSACS/Recursion/Recursion.csproj",
+      "projectName": "Recursion",
+      "projectPath": "/Users/xinyitay/Projects/DSACS/Recursion/Recursion.csproj",
       "packagesPath": "/Users/xinyitay/.nuget/packages/",
-      "outputPath": "/Users/xinyitay/Projects/DSACS/DSACS/obj/",
+      "outputPath": "/Users/xinyitay/Projects/DSACS/Recursion/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/xinyitay/.config/NuGet/NuGet.Config"

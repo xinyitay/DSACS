@@ -1,5 +1,5 @@
 ﻿using System;
-namespace LinkedList
+namespace Day1
 {
     public class LinkedList
     {

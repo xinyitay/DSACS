@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/xinyitay/Projects/DSACS/LinkedList/Day1.csproj": {}
+    "/Users/xinyitay/Projects/DSACS/Day1/Day1.csproj": {}
   },
   "projects": {
-    "/Users/xinyitay/Projects/DSACS/LinkedList/Day1.csproj": {
+    "/Users/xinyitay/Projects/DSACS/Day1/Day1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/xinyitay/Projects/DSACS/LinkedList/Day1.csproj",
+        "projectUniqueName": "/Users/xinyitay/Projects/DSACS/Day1/Day1.csproj",
         "projectName": "Day1",
-        "projectPath": "/Users/xinyitay/Projects/DSACS/LinkedList/Day1.csproj",
+        "projectPath": "/Users/xinyitay/Projects/DSACS/Day1/Day1.csproj",
         "packagesPath": "/Users/xinyitay/.nuget/packages/",
-        "outputPath": "/Users/xinyitay/Projects/DSACS/LinkedList/obj/",
+        "outputPath": "/Users/xinyitay/Projects/DSACS/Day1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/xinyitay/.config/NuGet/NuGet.Config"

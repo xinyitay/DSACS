@@ -1,16 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace DSACS
+namespace Day1
 {
-    public class Algos
+    public class GetUniqueNumbers
     {
-        public Algos()
+        public GetUniqueNumbers()
         {
         }
 
         // return non-duplicate elements, keeping only first occurrence
-        public static List<int> GetUniqueNumbers(int[] arr)
+        public static List<int> GetUniqueNumbersArr(int[] arr)
         {
             List<int> ans = new List<int>();
 

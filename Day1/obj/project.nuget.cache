@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6djXuUV3FRN6bS08j7J3PGKxus/WvDny5u/B0I1e7zAnInFigiXijj7Ml49z1PKv6zHm/ShgTjUSW5SJdVp3RA==",
+  "dgSpecHash": "QD/GbcBxxmGy7mts4QqVkC43oJxQLyWj277DkJ4GCBKus0slI/f16XLxaL2W8tAYWc8qDXNAfyxblSoJp2d0PA==",
   "success": true,
-  "projectFilePath": "/Users/xinyitay/Projects/DSACS/LinkedList/Day1.csproj",
+  "projectFilePath": "/Users/xinyitay/Projects/DSACS/Day1/Day1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
