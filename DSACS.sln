@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day1", "Day1\Day1.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{9F14E392-3FBD-40FE-BB96-8BB96DB2751C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeAssig", "TicTacToe\TicTacToeAssig.csproj", "{C5289841-1761-43B4-82A5-0F30C73A36F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9F14E392-3FBD-40FE-BB96-8BB96DB2751C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F14E392-3FBD-40FE-BB96-8BB96DB2751C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F14E392-3FBD-40FE-BB96-8BB96DB2751C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5289841-1761-43B4-82A5-0F30C73A36F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5289841-1761-43B4-82A5-0F30C73A36F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5289841-1761-43B4-82A5-0F30C73A36F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5289841-1761-43B4-82A5-0F30C73A36F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

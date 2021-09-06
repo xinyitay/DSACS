@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/DSACS/TicTacToe/bin/Debug/net5.0/TicTacToeAssig.deps.json
+/Users/xinyitay/Projects/DSACS/TicTacToe/bin/Debug/net5.0/TicTacToeAssig.runtimeconfig.json
+/Users/xinyitay/Projects/DSACS/TicTacToe/bin/Debug/net5.0/TicTacToeAssig.runtimeconfig.dev.json
+/Users/xinyitay/Projects/DSACS/TicTacToe/bin/Debug/net5.0/TicTacToeAssig.dll
+/Users/xinyitay/Projects/DSACS/TicTacToe/bin/Debug/net5.0/ref/TicTacToeAssig.dll
+/Users/xinyitay/Projects/DSACS/TicTacToe/bin/Debug/net5.0/TicTacToeAssig.pdb
+/Users/xinyitay/Projects/DSACS/TicTacToe/obj/Debug/net5.0/TicTacToeAssig.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/DSACS/TicTacToe/obj/Debug/net5.0/TicTacToeAssig.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/DSACS/TicTacToe/obj/Debug/net5.0/TicTacToeAssig.AssemblyInfo.cs
+/Users/xinyitay/Projects/DSACS/TicTacToe/obj/Debug/net5.0/TicTacToeAssig.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/DSACS/TicTacToe/obj/Debug/net5.0/TicTacToeAssig.dll
+/Users/xinyitay/Projects/DSACS/TicTacToe/obj/Debug/net5.0/ref/TicTacToeAssig.dll
+/Users/xinyitay/Projects/DSACS/TicTacToe/obj/Debug/net5.0/TicTacToeAssig.pdb
+/Users/xinyitay/Projects/DSACS/TicTacToe/obj/Debug/net5.0/TicTacToeAssig.genruntimeconfig.cache
