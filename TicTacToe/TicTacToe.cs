@@ -1,15 +1,19 @@
 ﻿using System;
-using System.Linq;
 
 namespace TicTacToeAssig
 {
     public static class TicTacToe
     {
-        static char player = 'X';
-        static int count = 0;
-
+        static char player = 'X';        
+        static int playerXCount;
+        static int playerOCount;
+        //static char winner;
+        //static i
+       
         public static void OutputState(char[,] state)
         {
+            playerXCount = 0;
+            playerOCount = 0;
 
             char[,] arr = new char[3, 3];
 
@@ -19,39 +23,80 @@ namespace TicTacToeAssig
             {
                 for (int j = 0; j < state.GetLength(1); j++)
                 {
-                    arr[i, j] = state[i, j];                 
+                    arr[i, j] = state[i, j];
                 }
-                
+
             }
 
             // deduce state above and print appropriate output
-            if (!checkWin(arr))
+            if (!checkBoard(arr))
             {
-                PlayerTurn(player);
+                Console.WriteLine("Wait, what?");
+            }
+            else if (!checkWin(arr))
+            {
+                if (playerXCount + playerOCount < 9)
+                {
+                    PlayerTurn(playerXCount, playerOCount);
+                } else
+                {
+                    Console.WriteLine("It is a draw.");
+                }
             }
             else
             {
-                Won(player);
-            }                        
-         
+                if (!checkValidWin(player))
+                {
+                    Console.WriteLine("Wait, what?");
+                }
+                else
+                {
+                    ValidWin(player);
+                }                
+            }
+
         }
-              
+
+        public static bool checkBoard(char[,] arr)
+        {        
+            // check if board has more O than X (not valid)
+            // if not, check if number of X - O > 1 (not valid)
+            for (int i = 0; i < arr.GetLength(0); i++)
+            {              
+                for (int j = 0; j < arr.GetLength(1); j++)
+                {
+                    if (arr[i, j] == 'X')
+                    {
+                        playerXCount += 1;
+                    }
+
+                    if (arr[i, j] == 'O')
+                    {
+                        playerOCount += 1;
+                    }
+                }
+            }
+                        
+            if (playerOCount > playerXCount)
+            {
+                return false;
+            }
+
+            if (playerXCount - playerOCount > 1)
+            {
+                return false;
+            }
+
+            return true;
+        }
+
         public static bool checkWin(char[,] arr)
         {
-            //// new board
-            //char[,] hello = new char[,] { { '.', '.', '.' }, { '.', '.', '.' }, { '.', '.', '.' } };
-            
-            //if (arr.SequenceEqual(new char[,] { { '.', '.', '.' }, { '.', '.', '.' }, { '.', '.', '.' } }))
-            //{
-            //    return false;
-            //}
-
-
             // horizontal win 
-            if ((arr[0, 0] == arr[0,1] && arr[0, 1] == arr[0, 2] && arr[0, 0] != '.') ||
-                    (arr[1, 0] == arr[1, 1] && arr[1, 1] == arr[1, 2] && arr[1, 0] != '.' ) ||
+            if ((arr[0, 0] == arr[0, 1] && arr[0, 1] == arr[0, 2] && arr[0, 0] != '.') ||
+                    (arr[1, 0] == arr[1, 1] && arr[1, 1] == arr[1, 2] && arr[1, 0] != '.') ||
                     (arr[2, 0] == arr[2, 1] && arr[2, 1] == arr[2, 2] && arr[2, 2] != '.'))
-            {
+            {        
                 return true;
             }
 
@@ -65,37 +110,73 @@ namespace TicTacToeAssig
 
             // diagonal win
             if ((arr[0, 0] == arr[1, 1] && arr[1, 1] == arr[2, 2] && arr[0, 0] != '.') ||
-                   (arr[0, 2] == arr[1, 1] && arr[1, 1] == arr[2, 0] && arr[0, 2] != '.'))                   
+                   (arr[0, 2] == arr[1, 1] && arr[1, 1] == arr[2, 0] && arr[0, 2] != '.'))
             {
                 return true;
             }
-            count++;
+                        
             return false;
         }
-                  
-        public static void Won(char player)
+
+        public static bool checkValidWin(char player)
+        {
+            if (player == 'O' && playerXCount > playerOCount)
+            {
+                return false;
+            }
+
+            if ((player == 'X') && (playerXCount == playerOCount))
+            {
+                return false;
+            }
+
+            
+
+            return true;
+        }
+
+        //public static bool checkValidWin(char player)
+        //{
+        //    if (player == 'X')
+        //    {
+        //        playerXWon = true;
+        //    }
+        //    if (player == 'O')
+        //    {
+        //        playerOWon = true;
+        //    }
+
+        //    Console.WriteLine($"{player} won.");
+        //}
+                
+
+        public static void ValidWin(char player)
         {
             Console.WriteLine($"{player} won.");
-            count = 0;
         }
-              
 
-        public static void PlayerTurn(char player)
-        {
-            if (count % 2 != 0)
+
+        public static void PlayerTurn(int playerXCount, int playerOCount)
+        {         
+            if (playerXCount > playerOCount)
             {
-                // currently player X. switch to O
-                // implement error checking later
+                // currently player X. switch to O                
                 player = 'O';
-            } else
+            }
+            else
             {
-                // currently player O. switch to X
-                player = 'X';
+                // currently player O. switch to X                           
+                player = 'X';             
             }
-      
-                Console.WriteLine($"{player}'s turn.");
-            }
-            
+
+            Console.WriteLine($"{player}'s turn.");
         }
-                 
+
+    }
+
 }
+
+
+
+            
+    
