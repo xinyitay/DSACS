@@ -32,19 +32,22 @@ namespace TicTacToeAssig
             if (!checkBoard(arr))
             {
                 Console.WriteLine("Wait, what?");
-            }
+            }            
             else if (!checkWin(arr))
             {
                 if (playerXCount + playerOCount < 9)
                 {
-                    PlayerTurn(playerXCount, playerOCount);
-                } else
+                    WhichPlayer(playerXCount, playerOCount);
+                    Console.WriteLine($"{player}'s turn.");
+                }
+                else
                 {
-                    Console.WriteLine("It is a draw.");
+                    Console.WriteLine("Its a draw.");
                 }
             }
             else
             {
+                //WhichPlayer(playerXCount, playerOCount);
                 if (!checkValidWin(player))
                 {
                     Console.WriteLine("Wait, what?");
@@ -156,8 +159,10 @@ namespace TicTacToeAssig
         }
 
 
-        public static void PlayerTurn(int playerXCount, int playerOCount)
-        {         
+        public static void WhichPlayer(int playerXCount, int playerOCount)
+        {
+            // buggy: goes here frm win but dk why player changes 2 times. frm X to O to X again.
+            // is it not returned??
             if (playerXCount > playerOCount)
             {
                 // currently player X. switch to O                
@@ -169,7 +174,6 @@ namespace TicTacToeAssig
                 player = 'X';             
             }
 
-            Console.WriteLine($"{player}'s turn.");
         }
 
     }
