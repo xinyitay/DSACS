@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToeAssig", "TicTacToe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dictionaries", "Dictionaries\Dictionaries.csproj", "{D3E64DE5-3F57-4F5C-8E31-6A4580632796}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BSTAscDesc", "BSTAscDesc\BSTAscDesc.csproj", "{6E4409C6-CA1D-428D-BEF1-DDF091A19EBD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D3E64DE5-3F57-4F5C-8E31-6A4580632796}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3E64DE5-3F57-4F5C-8E31-6A4580632796}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3E64DE5-3F57-4F5C-8E31-6A4580632796}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E4409C6-CA1D-428D-BEF1-DDF091A19EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4409C6-CA1D-428D-BEF1-DDF091A19EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4409C6-CA1D-428D-BEF1-DDF091A19EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4409C6-CA1D-428D-BEF1-DDF091A19EBD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

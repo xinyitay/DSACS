@@ -1,25 +1,29 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{C5289841-1761-43B4-82A5-0F30C73A36F2}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{6E4409C6-CA1D-428D-BEF1-DDF091A19EBD}|Default">
   <MonoDevelop.Ide.ItemProperties.TicTacToeAssig PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.ItemProperties.Recursion FirstBuild="True" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="TicTacToe/Program.cs" Line="46" Column="1" />
-      <File FileName="TicTacToe/TicTacToe.cs" Line="50" Column="31" />
+      <File FileName="TicTacToe/TicTacToe.cs" Line="100" Column="60" />
+      <File FileName="TicTacToe/Program.cs" Line="18" Column="24" />
+      <File FileName="TicTacToe/TicTacToeHR.cs" />
+      <File FileName="Dictionaries/Program.cs" />
+      <File FileName="BSTAscDesc/Program.cs" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DSACS" expanded="True">
+            <Node name="BSTAscDesc" expanded="True" selected="True" />
             <Node name="Day1" expanded="True" />
+            <Node name="Dictionaries" expanded="True" />
             <Node name="Recursion" expanded="True" />
-            <Node name="TicTacToeAssig" expanded="True">
-              <Node name="TicTacToe.cs" selected="True" />
-            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Dictionaries FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.BSTAscDesc FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>StacksQueues/StacksQueues.csproj</String>
@@ -28,7 +32,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/xinyitay/Projects/DSACS/TicTacToe/TicTacToe.cs" relfile="TicTacToe/TicTacToe.cs" line="42" column="1" />
+      <Breakpoint file="/Users/xinyitay/Projects/DSACS/TicTacToe/Program.cs" relfile="TicTacToe/Program.cs" line="59" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

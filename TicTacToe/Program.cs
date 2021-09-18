@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TicTacToeAssig
 {
@@ -6,6 +7,17 @@ namespace TicTacToeAssig
     {
         static void Main(string[] args)
         {
+            Queue<string> num = new Queue<string>();
+            num.Enqueue("one");
+            num.Enqueue("two");
+            Console.Write(num.Peek());
+            Console.WriteLine(num.Count);
+            num.Dequeue();
+            Console.WriteLine(num.Peek());
+            num.Clear();
+            num.Peek();
+      
+            
             // sample state
             //char[,] state1 = { { 'O', '.', 'X' }, { '.', 'O', 'X' }, { '.', '.', 'X' } };
             //TicTacToe.OutputState(state1);
@@ -88,13 +100,13 @@ namespace TicTacToeAssig
 
             // input 8
             // need to keep track of 2 wins some how. return invalid.
-            char[,] i8 = { { 'O', 'O', 'O' }, { 'X', 'X', 'X' }, { '.', '.', '.' } };
-            TicTacToe.OutputState(i8);
+            //char[,] i8 = { { 'O', 'O', 'O' }, { 'X', 'X', 'X' }, { '.', '.', '.' } };
+            //TicTacToe.OutputState(i8);
 
 
-            // input 8 modified
-            char[,] i8m = { { 'X', 'X', 'X' }, { 'O', 'O', 'O' }, { '.', '.', '.' } };
-            TicTacToe.OutputState(i8m);
+            //// input 8 modified
+            //char[,] i8m = { { 'X', 'X', 'X' }, { 'O', 'O', 'O' }, { '.', '.', '.' } };
+            //TicTacToe.OutputState(i8m);
 
 
             ////input 2
