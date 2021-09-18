@@ -3,7 +3,7 @@ namespace Recursion
 {
     public static class Reverse
     {
-        public static string Reverse(string str, string impl="recursive")
+        public static string ReverseStr(string str, string impl="recursive")
         {
             if (impl != "recursive" && impl != "iterative")
             {

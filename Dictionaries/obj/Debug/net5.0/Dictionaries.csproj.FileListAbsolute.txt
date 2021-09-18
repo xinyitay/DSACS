@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/DSACS/Dictionaries/bin/Debug/net5.0/Dictionaries.deps.json
+/Users/xinyitay/Projects/DSACS/Dictionaries/bin/Debug/net5.0/Dictionaries.runtimeconfig.json
+/Users/xinyitay/Projects/DSACS/Dictionaries/bin/Debug/net5.0/Dictionaries.runtimeconfig.dev.json
+/Users/xinyitay/Projects/DSACS/Dictionaries/bin/Debug/net5.0/Dictionaries.dll
+/Users/xinyitay/Projects/DSACS/Dictionaries/bin/Debug/net5.0/ref/Dictionaries.dll
+/Users/xinyitay/Projects/DSACS/Dictionaries/bin/Debug/net5.0/Dictionaries.pdb
+/Users/xinyitay/Projects/DSACS/Dictionaries/obj/Debug/net5.0/Dictionaries.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/DSACS/Dictionaries/obj/Debug/net5.0/Dictionaries.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/DSACS/Dictionaries/obj/Debug/net5.0/Dictionaries.AssemblyInfo.cs
+/Users/xinyitay/Projects/DSACS/Dictionaries/obj/Debug/net5.0/Dictionaries.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/DSACS/Dictionaries/obj/Debug/net5.0/Dictionaries.dll
+/Users/xinyitay/Projects/DSACS/Dictionaries/obj/Debug/net5.0/ref/Dictionaries.dll
+/Users/xinyitay/Projects/DSACS/Dictionaries/obj/Debug/net5.0/Dictionaries.pdb
+/Users/xinyitay/Projects/DSACS/Dictionaries/obj/Debug/net5.0/Dictionaries.genruntimeconfig.cache

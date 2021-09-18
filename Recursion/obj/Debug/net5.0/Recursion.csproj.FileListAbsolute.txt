@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/DSACS/Recursion/bin/Debug/net5.0/Recursion.deps.json
+/Users/xinyitay/Projects/DSACS/Recursion/bin/Debug/net5.0/Recursion.runtimeconfig.json
+/Users/xinyitay/Projects/DSACS/Recursion/bin/Debug/net5.0/Recursion.runtimeconfig.dev.json
+/Users/xinyitay/Projects/DSACS/Recursion/bin/Debug/net5.0/Recursion.dll
+/Users/xinyitay/Projects/DSACS/Recursion/bin/Debug/net5.0/ref/Recursion.dll
+/Users/xinyitay/Projects/DSACS/Recursion/bin/Debug/net5.0/Recursion.pdb
+/Users/xinyitay/Projects/DSACS/Recursion/obj/Debug/net5.0/Recursion.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/DSACS/Recursion/obj/Debug/net5.0/Recursion.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/DSACS/Recursion/obj/Debug/net5.0/Recursion.AssemblyInfo.cs
+/Users/xinyitay/Projects/DSACS/Recursion/obj/Debug/net5.0/Recursion.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/DSACS/Recursion/obj/Debug/net5.0/Recursion.dll
+/Users/xinyitay/Projects/DSACS/Recursion/obj/Debug/net5.0/ref/Recursion.dll
+/Users/xinyitay/Projects/DSACS/Recursion/obj/Debug/net5.0/Recursion.pdb
+/Users/xinyitay/Projects/DSACS/Recursion/obj/Debug/net5.0/Recursion.genruntimeconfig.cache

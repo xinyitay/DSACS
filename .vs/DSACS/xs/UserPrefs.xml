@@ -1,29 +1,33 @@
-﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{6E4409C6-CA1D-428D-BEF1-DDF091A19EBD}|Default">
+﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{537E5641-E168-4B55-A64B-08B66B091DF1}|Default">
   <MonoDevelop.Ide.ItemProperties.TicTacToeAssig PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.ItemProperties.Recursion FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Recursion/Reverse.cs">
     <Files>
       <File FileName="TicTacToe/TicTacToe.cs" Line="100" Column="60" />
       <File FileName="TicTacToe/Program.cs" Line="18" Column="24" />
       <File FileName="TicTacToe/TicTacToeHR.cs" />
       <File FileName="Dictionaries/Program.cs" />
-      <File FileName="BSTAscDesc/Program.cs" Line="13" Column="1" />
+      <File FileName="BSTAscDesc/Program.cs" Line="3" Column="21" />
+      <File FileName="BSTAscDesc/BST_SortedList.cs" Line="2" Column="1" />
+      <File FileName="../../Desktop/GDipSA/SA4102 Enterprise Solutions Design &amp; Development/DSA/DSTRUCT 2/BinarySearchTree/BinarySearchTree.cs" Line="1" Column="1" />
+      <File FileName="BinarySearchTree/BinarySearchTree.cs" Line="1" Column="1" />
+      <File FileName="BinarySearchTree/Node.cs" Line="1" Column="1" />
+      <File FileName="BinarySearchTree/Program.cs" Line="1" Column="1" />
+      <File FileName="Day1/StacksQueues.cs" Line="13" Column="1" />
+      <File FileName="Recursion/Reverse.cs" Line="6" Column="40" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DSACS" expanded="True">
-            <Node name="BSTAscDesc" expanded="True" selected="True" />
-            <Node name="Day1" expanded="True" />
-            <Node name="Dictionaries" expanded="True" />
+            <Node name="BinarySearchTree" selected="True" />
+            <Node name="BSTAscDesc" expanded="True" />
             <Node name="Recursion" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Dictionaries FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.BSTAscDesc FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.BSTAscDesc PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <DisabledProjects>
     <String>StacksQueues/StacksQueues.csproj</String>

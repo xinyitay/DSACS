@@ -1,0 +1,14 @@
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/bin/Debug/net5.0/BSTAscDesc.deps.json
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/bin/Debug/net5.0/BSTAscDesc.runtimeconfig.json
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/bin/Debug/net5.0/BSTAscDesc.runtimeconfig.dev.json
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/bin/Debug/net5.0/BSTAscDesc.dll
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/bin/Debug/net5.0/ref/BSTAscDesc.dll
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/bin/Debug/net5.0/BSTAscDesc.pdb
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/obj/Debug/net5.0/BSTAscDesc.GeneratedMSBuildEditorConfig.editorconfig
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/obj/Debug/net5.0/BSTAscDesc.AssemblyInfoInputs.cache
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/obj/Debug/net5.0/BSTAscDesc.AssemblyInfo.cs
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/obj/Debug/net5.0/BSTAscDesc.csproj.CoreCompileInputs.cache
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/obj/Debug/net5.0/BSTAscDesc.dll
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/obj/Debug/net5.0/ref/BSTAscDesc.dll
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/obj/Debug/net5.0/BSTAscDesc.pdb
+/Users/xinyitay/Projects/DSACS/BSTAscDesc/obj/Debug/net5.0/BSTAscDesc.genruntimeconfig.cache

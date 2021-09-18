@@ -8,7 +8,10 @@ namespace Day1
             LinkedList myStack = new LinkedList();
         }
 
-        public void push
+        public void push()
+        {
+
+        }
 
 
         private static bool IsOpenDelimiter(char ch)

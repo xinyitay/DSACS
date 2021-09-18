@@ -1,0 +1,13 @@
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/bin/Debug/netcoreapp3.1/BinarySearchTree.deps.json
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/bin/Debug/netcoreapp3.1/BinarySearchTree.runtimeconfig.json
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/bin/Debug/netcoreapp3.1/BinarySearchTree.runtimeconfig.dev.json
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/bin/Debug/netcoreapp3.1/BinarySearchTree.dll
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/bin/Debug/netcoreapp3.1/BinarySearchTree.pdb
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/obj/Debug/netcoreapp3.1/BinarySearchTree.csproj.AssemblyReference.cache
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/obj/Debug/netcoreapp3.1/BinarySearchTree.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/obj/Debug/netcoreapp3.1/BinarySearchTree.AssemblyInfoInputs.cache
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/obj/Debug/netcoreapp3.1/BinarySearchTree.AssemblyInfo.cs
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/obj/Debug/netcoreapp3.1/BinarySearchTree.csproj.CoreCompileInputs.cache
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/obj/Debug/netcoreapp3.1/BinarySearchTree.dll
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/obj/Debug/netcoreapp3.1/BinarySearchTree.pdb
+/Users/cherwah/Projects/DSTRUCT/BinarySearchTree/obj/Debug/netcoreapp3.1/BinarySearchTree.genruntimeconfig.cache
